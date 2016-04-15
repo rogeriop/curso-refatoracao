@@ -17,7 +17,7 @@ public class Trem {
 
 	private int lugaresReservados() {
 		int reservado = 0;
-		for(Vagao vagao : vagoes) {
+		for(Vagao vagao : vagoes) { 
 			reservado += vagao.reservados();
 		}
 		return reservado;
