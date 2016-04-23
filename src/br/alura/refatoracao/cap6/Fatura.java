@@ -25,7 +25,8 @@ public class Fatura {
 	}
 
 	public double emDolar() {
-		return valorMensal * 2.7;
+		return valorMensal * Moeda.DOLAR.getTaxa();
+		
 	}
 
 }
